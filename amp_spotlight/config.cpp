@@ -16,7 +16,6 @@ class RscDisplayMain: RscStandardDisplay
 {
 	class Spotlight
 	{
-		//delete;
 		class AwesomeServer
 		{
 			text = "[ OFFICIAL ] Arma 3 Zeus by Bohemia Interactive (EU) #15"; // Text displayed on the square button, converted to upper-case
