@@ -53,12 +53,8 @@ onEachFrame format [
 					{
 						diag_log ""RCTS Timeout (no server)"";
 						onEachFrame {};
-					};  
-					
-					diag_log _this;
-					diag_log ""%1:%2"";
-					
-					if (_this isEqualTo ""%1:%2"") then
+					};
+					if !(_this isEqualTo '') then
 					{
 						findDisplay %8 displayCtrl %13 lbSetCurSel 0;
 						
