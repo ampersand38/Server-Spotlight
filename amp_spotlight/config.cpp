@@ -16,8 +16,7 @@ class RscDisplayMain: RscStandardDisplay
 {
 	class Spotlight
 	{
-		//delete;
-		class TFTServer
+		class AwesomeServer
 		{
 			text = "[ OFFICIAL ] Arma 3 Zeus by Bohemia Interactive (EU) #15"; // Text displayed on the square button, converted to upper-case
 			textIsQuote = 0; // 1 to add quotation marks around the text
